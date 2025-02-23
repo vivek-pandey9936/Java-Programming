@@ -1,0 +1,26 @@
+// learning about static and object programming by( coding seekho - Lec - 04 )
+class Samsung
+{
+private int m;
+private int c;
+
+public void setdata(int p,int q)
+{
+m=p;
+c=q;
+}
+public void display()
+{
+System.out.println(m);
+System.out.println(c);
+}
+}
+class classesobj
+{
+public static void main(String []args)
+{
+Samsung s1=new Samsung();
+s1.setdata(11,16);
+s1.display();
+}
+}
